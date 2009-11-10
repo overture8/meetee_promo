@@ -1,0 +1,12 @@
+<html>
+<head>
+  <title><%= h(yield(:title) || "Untitled") %></title>
+  <%= stylesheet_link_tag 'screen', 'master', 'message_block' %>
+  <!--[if IE]><%= stylesheet_link_tag 'ie' %><![endif]-->  
+  <%= yield(:head) %> 
+  <%= javascript_include_tag 'prototype', 'effects', 'observe_user_form', 'application' %>
+</head>
+<body>
+  <%= yield %>
+</body>
+</html>

@@ -1,0 +1,109 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  background-color: #212121;
+  border-top: 8px solid #885959;
+  background-image: url(/images/background.png);
+  background-repeat: repeat-x;
+  text-align: center;
+}
+
+input[type=text]
+{
+  font-size: 24px;
+  text-align: center;
+  color: #885;
+  background-color: #eeeeee;
+  border: 3px solid #885959;
+  padding: 5px;
+  width: 80%;
+}
+
+a
+{
+  font-family: "Georgia", "serif", "Times New Roman";
+  font-size: 16px;
+  font-style: italic;
+  color: #BCED91;
+}
+
+a:hover
+{
+  cursor: pointer;
+  color: #eeeeee;
+  background-color: #3D5229;
+}
+
+#user_form a
+{
+  text-align: left;
+}
+
+p
+{
+  color: #bbb;
+  font-size: 18px;
+}
+
+label
+{
+  color: #ffffff;
+}
+
+#user_form
+{ 
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align:center;
+  width: 50%;
+}
+
+#product_details
+{
+  border: 3px solid #aaa;
+  padding: 20px;
+  color: #eee;
+  margin-bottom: 20px;
+  background-color: #292929;
+}
+
+/* ************* */
+/* Notice Styles */
+/* ************* */
+#notice
+{
+  background-color: #292929;
+  padding: 20px;
+  margin: 20px;
+  border: 3px solid #BCED91;
+  color: #BCED91;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* ************ */
+/* Error Styles */
+/* ************ */
+.errorExplanation ul 
+{ 
+  background-color: #292929;
+  text-indent: 0px;
+  padding: 10px; 
+  margin: 10px; 
+  border: 3px solid #885959; 
+}
+
+.errorExplanation ul li
+{
+  color: #885959;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.errorExplanation p, .errorExplanation h2
+{
+  display: none; 
+}
+
+

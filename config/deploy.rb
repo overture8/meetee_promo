@@ -1,7 +1,7 @@
 set :rails_env, "production"
 
 set :application, "www.meetee.me"
-set :repository,  "git@github.com:overture8/theRailWorld.git"
+set :repository,  "git@github.com:overture8/meetee_promo.git"
 set :deploy_to, "/var/www/#{application}" 
 
 set :scm, :git

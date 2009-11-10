@@ -2,7 +2,7 @@
 
 development:
   adapter: mysql
-  database: trw_dev
+  database: meetee_promo_dev
   username: root
   password: 
   host: localhost
@@ -10,7 +10,7 @@ development:
   
 test: &TEST
   adapter: mysql
-  database: trw_test
+  database: meetee_promo_test
   username: root
   password: 
   host: localhost
@@ -18,7 +18,7 @@ test: &TEST
   
 staging:
   adapter: mysql
-  database: trw_staging
+  database: meetee_promo_staging
   username: root
   password: <%= File.read(PASSWORD_FILE).chomp if File.readable? PASSWORD_FILE %>
   host: localhost
@@ -27,7 +27,7 @@ staging:
   
 production:
   adapter: mysql
-  database: trw_production
+  database: meetee_promo_production
   username: root
   password: <%= File.read(PASSWORD_FILE).chomp if File.readable? PASSWORD_FILE %>
   host: localhost
